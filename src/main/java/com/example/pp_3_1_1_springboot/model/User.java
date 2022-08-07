@@ -6,7 +6,7 @@ import javax.persistence.*;
 
 @Entity
 @Data
-@NoArgsConstructor
+@AllArgsConstructor
 @Table(name = "users")
 public class User {
     @Id
@@ -25,4 +25,7 @@ public class User {
     @Column(name = "phone")
     private Integer phone;
 
+    public User() {
+
+    }
 }
