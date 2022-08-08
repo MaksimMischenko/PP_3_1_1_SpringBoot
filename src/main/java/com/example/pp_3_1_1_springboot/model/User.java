@@ -26,6 +26,6 @@ public class User {
     private Integer phone;
 
     public User() {
-
     }
+
 }
